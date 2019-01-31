@@ -1,0 +1,4 @@
+#Thu Jan 31 16:08:46 IST 2019
+base.0=/home/yash/Desktop/ionic_4/test_blank/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex
