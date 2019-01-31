@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+ <ion-input [(ngModel)]="value" clearInput></ion-input>
+ <ion-button expand="full" [routerLink]="['/second',value]">Push using RouterLink</ion-button>
+ <ion-button expand="full" (click)="PushTo()">Push using function</ion-button>
+ <ion-button expand="full"(click)="OpenModal()">Modal Implementation</ion-button>
+ <ion-button expand="full" (click)="PopOver($event)">PopOver</ion-button>
+
+</ion-content>
